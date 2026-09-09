@@ -1,0 +1,50 @@
+name: reye
+description: Reye helps users take regular screen breaks with the 20-20-20 habit.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  screen_retriever: ^0.2.0
+  shared_preferences: ^2.5.4
+  tray_manager: ^0.5.2
+  window_manager: ^0.5.1
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/reye.ico
+    - assets/fonts/vazirmatn/OFL.txt
+  fonts:
+    - family: Vazirmatn
+      fonts:
+        - asset: assets/fonts/vazirmatn/Vazirmatn-Thin.woff2
+          weight: 100
+        - asset: assets/fonts/vazirmatn/Vazirmatn-ExtraLight.woff2
+          weight: 200
+        - asset: assets/fonts/vazirmatn/Vazirmatn-Light.woff2
+          weight: 300
+        - asset: assets/fonts/vazirmatn/Vazirmatn-Regular.woff2
+          weight: 400
+        - asset: assets/fonts/vazirmatn/Vazirmatn-Medium.woff2
+          weight: 500
+        - asset: assets/fonts/vazirmatn/Vazirmatn-SemiBold.woff2
+          weight: 600
+        - asset: assets/fonts/vazirmatn/Vazirmatn-Bold.woff2
+          weight: 700
+        - asset: assets/fonts/vazirmatn/Vazirmatn-ExtraBold.woff2
+          weight: 800
+        - asset: assets/fonts/vazirmatn/Vazirmatn-Black.woff2
+          weight: 900

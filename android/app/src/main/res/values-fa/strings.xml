@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reye</string>
+    <string name="reminder_channel_name">یادآورهای Reye</string>
+    <string name="reminder_channel_description">یادآوری استراحت چشم از Reye</string>
+    <string name="countdown_channel_name">شمارش معکوس Reye</string>
+    <string name="countdown_channel_description">زمان باقی‌مانده تا استراحت بعدی چشم</string>
+    <string name="default_reminder_title">وقت استراحت چشم است</string>
+    <string name="default_reminder_body">برای ۲۰ ثانیه به چیزی در دوردست نگاه کن. چشم‌هایت را آرام کن و هر وقت آماده بودی برگرد.</string>
+    <string name="default_countdown_body">استراحت بعدی چشم</string>
+</resources>

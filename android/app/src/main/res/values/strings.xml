@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reye</string>
+    <string name="reminder_channel_name">Reye reminders</string>
+    <string name="reminder_channel_description">Eye-break reminders from Reye</string>
+    <string name="countdown_channel_name">Reye countdown</string>
+    <string name="countdown_channel_description">Time remaining until the next eye break</string>
+    <string name="default_reminder_title">Time for an eye break</string>
+    <string name="default_reminder_body">Look at something far away for 20 seconds. Relax your eyes, then come back when you are ready.</string>
+    <string name="default_countdown_body">Next eye break</string>
+</resources>

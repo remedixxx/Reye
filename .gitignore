@@ -1,0 +1,95 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+*.tmp
+*.bak
+*.dmp
+.DS_Store
+Thumbs.db
+Desktop.ini
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+.vs/
+.fleet/
+*.suo
+*.user
+*.userosscache
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+/dist/
+
+# Platform-local and generated files
+/android/.gradle/
+/android/.kotlin/
+/android/.cxx/
+/android/app/.cxx/
+/android/app/build/
+/android/captures/
+/android/local.properties
+/windows/flutter/ephemeral/
+/installer/Output/
+
+# Signing material and credentials
+**/key.properties
+**/secrets.properties
+**/*.keystore
+**/*.jks
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/*.pvk
+**/*.snk
+**/*.cer
+**/*.crt
+**/*credentials*.json
+**/service-account*.json
+**/google-services.json
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Packaged release artifacts
+*.apk
+*.aab
+*.apks
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
